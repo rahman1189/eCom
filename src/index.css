@@ -1,0 +1,24 @@
+li{
+    /* height: 80px;
+    width: 100px;
+    overflow: hidden; */
+    /* display: flex;
+    flex-direction: column; */
+    background-color: lightgray;
+    margin-top: 2px;
+    list-style: none;
+    
+}
+
+.proudctDiv:hover{
+   transition: 0.5s;
+   padding: 5px;
+   background-color: #709e9e !important ;
+   cursor: pointer;
+}
+.proudctImg{
+
+}
+.proudctLI{
+
+}
