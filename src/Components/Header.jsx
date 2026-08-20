@@ -4,7 +4,7 @@ import Error from "./Error"
 import Footer from "./Footer"
 import AllProducts from "./AllProducts"
 import Test from "./Test"
-import { BrowserRouter,Routes,Route,Link } from "react-router-dom"
+import { HashRouter,Routes,Route,Link } from "react-router-dom"
 
     import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
@@ -30,7 +30,7 @@ return<>
 
 {/* descendant  */}
 
-            <BrowserRouter basename="/eCom/">
+            <HashRouter basename="/eCom/">
     <Navbar expand="lg" className="bg-body-tertiary" style={{position:"fixed",width:"100%"}}>
       <Container fluid>
         <Navbar.Brand><img src="/images/aliphStore.png" style={{height:"60px"}}></img></Navbar.Brand>
@@ -68,7 +68,7 @@ return<>
                 {/* <Route path="/buypage/:title/:price/:img" element={<BuyPage/>}></Route> */}
                 <Route path="/buypage/:id" element={<BuyPage/>}></Route>
             </Routes>
-           </BrowserRouter>
+           </HashRouter>
 
 </>
 }
