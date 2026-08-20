@@ -30,7 +30,7 @@ return<>
 
 {/* descendant  */}
 
-            <BrowserRouter>
+            <BrowserRouter basename="/eCom/">
     <Navbar expand="lg" className="bg-body-tertiary" style={{position:"fixed",width:"100%"}}>
       <Container fluid>
         <Navbar.Brand><img src="/images/aliphStore.png" style={{height:"60px"}}></img></Navbar.Brand>
